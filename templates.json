@@ -1,0 +1,134 @@
+[
+  {
+    "id": "sky-courier",
+    "name": "Sky courier",
+    "subject": "adult courier with short silver hair and amber eyes",
+    "outfit": "navy flight jacket and brass goggles",
+    "action": "holding a folded map",
+    "setting": "floating harbor at sunrise",
+    "style": "anime illustration, clean line art, soft cel shading",
+    "lighting": "soft cinematic lighting",
+    "composition": "three-quarter portrait"
+  },
+  {
+    "id": "forest-botanist",
+    "name": "Forest botanist",
+    "subject": "adult botanist with braided brown hair and green eyes",
+    "outfit": "linen coat and leather satchel",
+    "action": "examining a glowing leaf",
+    "setting": "quiet forest greenhouse",
+    "style": "anime illustration, clean line art, soft cel shading",
+    "lighting": "soft cinematic lighting",
+    "composition": "three-quarter portrait"
+  },
+  {
+    "id": "moon-librarian",
+    "name": "Moon librarian",
+    "subject": "adult librarian with long violet hair and round glasses",
+    "outfit": "indigo robe with embroidered stars",
+    "action": "carrying an open book",
+    "setting": "moonlit library",
+    "style": "anime illustration, clean line art, soft cel shading",
+    "lighting": "soft cinematic lighting",
+    "composition": "three-quarter portrait"
+  },
+  {
+    "id": "desert-mechanic",
+    "name": "Desert mechanic",
+    "subject": "adult mechanic with curly black hair and copper eyes",
+    "outfit": "sand-colored overalls and work gloves",
+    "action": "repairing a small robot",
+    "setting": "desert workshop",
+    "style": "anime illustration, clean line art, soft cel shading",
+    "lighting": "soft cinematic lighting",
+    "composition": "three-quarter portrait"
+  },
+  {
+    "id": "rain-detective",
+    "name": "Rain detective",
+    "subject": "adult detective with cropped blue hair and gray eyes",
+    "outfit": "charcoal raincoat",
+    "action": "holding a transparent umbrella",
+    "setting": "rainy city street",
+    "style": "anime illustration, clean line art, soft cel shading",
+    "lighting": "soft cinematic lighting",
+    "composition": "three-quarter portrait"
+  },
+  {
+    "id": "tea-alchemist",
+    "name": "Tea alchemist",
+    "subject": "adult alchemist with auburn hair and freckles",
+    "outfit": "sage apron over a cream shirt",
+    "action": "pouring tea into a glass cup",
+    "setting": "warm herbal shop",
+    "style": "anime illustration, clean line art, soft cel shading",
+    "lighting": "soft cinematic lighting",
+    "composition": "three-quarter portrait"
+  },
+  {
+    "id": "snow-ranger",
+    "name": "Snow ranger",
+    "subject": "adult ranger with white braids and brown eyes",
+    "outfit": "teal winter coat and wool scarf",
+    "action": "watching distant mountains",
+    "setting": "snow-covered trail",
+    "style": "anime illustration, clean line art, soft cel shading",
+    "lighting": "soft cinematic lighting",
+    "composition": "three-quarter portrait"
+  },
+  {
+    "id": "ocean-cartographer",
+    "name": "Ocean cartographer",
+    "subject": "adult cartographer with dark curls and hazel eyes",
+    "outfit": "white shirt and blue waistcoat",
+    "action": "drawing a sea chart",
+    "setting": "sunlit ship cabin",
+    "style": "anime illustration, clean line art, soft cel shading",
+    "lighting": "soft cinematic lighting",
+    "composition": "three-quarter portrait"
+  },
+  {
+    "id": "rooftop-musician",
+    "name": "Rooftop musician",
+    "subject": "adult musician with pink bobbed hair and dark eyes",
+    "outfit": "burgundy jacket and black trousers",
+    "action": "playing a violin",
+    "setting": "city rooftop at dusk",
+    "style": "anime illustration, clean line art, soft cel shading",
+    "lighting": "soft cinematic lighting",
+    "composition": "three-quarter portrait"
+  },
+  {
+    "id": "garden-guardian",
+    "name": "Garden guardian",
+    "subject": "adult guardian with dark green hair and golden eyes",
+    "outfit": "layered moss-colored cloak",
+    "action": "holding a wooden staff",
+    "setting": "overgrown stone garden",
+    "style": "anime illustration, clean line art, soft cel shading",
+    "lighting": "soft cinematic lighting",
+    "composition": "three-quarter portrait"
+  },
+  {
+    "id": "star-engineer",
+    "name": "Star engineer",
+    "subject": "adult engineer with short black hair and blue eyes",
+    "outfit": "orange utility suit",
+    "action": "inspecting a holographic diagram",
+    "setting": "orbital observatory",
+    "style": "anime illustration, clean line art, soft cel shading",
+    "lighting": "soft cinematic lighting",
+    "composition": "three-quarter portrait"
+  },
+  {
+    "id": "village-baker",
+    "name": "Village baker",
+    "subject": "adult baker with sandy hair and warm brown eyes",
+    "outfit": "cream apron and rolled-up sleeves",
+    "action": "carrying a basket of bread",
+    "setting": "cozy village bakery",
+    "style": "anime illustration, clean line art, soft cel shading",
+    "lighting": "soft cinematic lighting",
+    "composition": "three-quarter portrait"
+  }
+]

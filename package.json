@@ -1,0 +1,20 @@
+{
+  "name": "anime-prompt-kit",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Dependency-free anime character prompt templates and composer",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test": "node --test",
+    "list": "node cli.js --list"
+  },
+  "license": "MIT",
+  "homepage": "https://ai-anime-generator.io",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/diaozxin007/anime-prompt-kit.git"
+  }
+}
