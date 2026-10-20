@@ -1,13 +1,7 @@
 import { readFileSync } from 'node:fs';
 export const templates = JSON.parse(readFileSync(new URL('./templates.json', import.meta.url), 'utf8'));
-const fields = ['subject', 'outfit', 'action', 'setting', 'style', 'lighting', 'composition'];
-export function composePrompt(options = {}) {
-  if (!options || typeof options !== 'object' || Array.isArray(options)) throw new TypeError('Expected a prompt options object');
-  for (const key of fields) {
-    if (options[key] !== undefined && typeof options[key] !== 'string') throw new TypeError(`${key} must be a string`);
-  }
-  return fields.map(key => options[key]?.trim()).filter(Boolean).join(', ');
-}
+import { composePrompt } from './composer.js';
+export { composePrompt } from './composer.js';
 export function fromTemplate(id, overrides = {}) {
   const template = templates.find(item => item.id === id);
   if (!template) throw new Error(`Unknown template: ${id}. Use --list to see available templates.`);
