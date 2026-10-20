@@ -1,10 +1,31 @@
 # Anime Prompt Kit
 
-Build editable anime character prompts from structured fields. Includes 12 original character concepts and a dependency-free JavaScript composer.
+Build editable anime character prompts from structured fields. Includes 12 original character concepts and dependency-free JavaScript and Python composers.
 
 Made for use with [AI Anime Generator](https://ai-anime-generator.io/) or your preferred image generator. This toolkit assembles text locally; it does not generate images or call an API.
 
-## Quick start
+## Python package
+
+Requires Python 3.9 or later. Install from [PyPI](https://pypi.org/project/anime-prompt-kit/):
+
+```sh
+python -m pip install anime-prompt-kit
+anime-prompt-kit --list
+anime-prompt-kit sky-courier --setting "a snowy train station"
+python -m anime_prompt_kit moon-librarian
+```
+
+```python
+from anime_prompt_kit import compose_prompt, from_template, list_templates
+
+print(from_template("sky-courier", setting="a snowy train station"))
+print(compose_prompt(subject="adult explorer", setting="forest"))
+```
+
+The Python API and CLI run locally without dependencies, accounts or API keys.
+[Documentation and project overview](https://ai-anime-generator.io/open-source).
+
+## JavaScript quick start
 
 Requires Node.js 20 or later. No dependencies, account, or API key required.
 
@@ -61,7 +82,7 @@ This project is currently distributed through GitHub; no npm install is required
 | `star-engineer` | Star engineer |
 | `village-baker` | Village baker |
 
-Templates live in [`templates.json`](./templates.json), so you can also copy and edit them without using JavaScript.
+The canonical templates live in [`templates.json`](./templates.json), so you can also copy and edit them without using JavaScript.
 
 ## Keep a character recognizable
 
@@ -72,6 +93,8 @@ Templates live in [`templates.json`](./templates.json), so you can also copy and
 
 These are text starting points, not a guarantee of character consistency. Different models interpret prompts differently. The included templates have not been individually image-tested; no generated results or performance claims are implied.
 
+Python distribution data is copied from `templates.json`; the parity test checks both copies and all 12 JavaScript/Python outputs. Update both JSON files when adding templates.
+
 ## Privacy
 
 The composer and CLI run locally. They have no network calls, tracking, or credentials. Following a website link opens a separate external service.
@@ -80,6 +103,7 @@ The composer and CLI run locally. They have no network calls, tracking, or crede
 
 ```sh
 npm test
+PYTHONPATH=python python3 -m unittest discover -s tests -v
 ```
 
 Contributions are welcome: add original templates, improve examples, or report bugs through GitHub issues. Include the exact command and Node.js version for bug reports. Keep secrets and private prompts out of issues. Please use original character concepts and do not contribute copyrighted artwork or copied prompt collections.

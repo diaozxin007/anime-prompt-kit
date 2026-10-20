@@ -1,0 +1,2 @@
+include templates.json index.js cli.js index.test.js package.json
+recursive-include tests *.py
