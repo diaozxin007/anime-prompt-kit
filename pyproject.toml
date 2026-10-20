@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "anime-prompt-kit"
-version = "0.1.0"
+version = "0.1.1"
 description = "Local anime character prompt templates and composer with a Python API and CLI"
 readme = "README.md"
 requires-python = ">=3.9"
@@ -12,7 +12,17 @@ license = "MIT"
 license-files = ["LICENSE"]
 authors = [{name = "diaozxin007"}]
 keywords = ["anime", "prompts", "character-design", "templates"]
-classifiers = ["Programming Language :: Python :: 3", "Operating System :: OS Independent"]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Intended Audience :: Developers",
+  "Topic :: Multimedia :: Graphics",
+  "Topic :: Software Development :: Libraries :: Python Modules",
+  "Environment :: Console",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.11",
+  "Operating System :: OS Independent",
+]
 
 [project.urls]
 Homepage = "https://ai-anime-generator.io/"

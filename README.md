@@ -82,7 +82,7 @@ This project is currently distributed through GitHub; no npm install is required
 | `star-engineer` | Star engineer |
 | `village-baker` | Village baker |
 
-The canonical templates live in [`templates.json`](./templates.json), so you can also copy and edit them without using JavaScript.
+The canonical templates live in [`templates.json`](https://github.com/diaozxin007/anime-prompt-kit/blob/main/templates.json), so you can also copy and edit them without using JavaScript.
 
 ## Keep a character recognizable
 
@@ -110,4 +110,4 @@ Contributions are welcome: add original templates, improve examples, or report b
 
 ## License
 
-[MIT](./LICENSE), covering the code and included template text.
+[MIT](https://github.com/diaozxin007/anime-prompt-kit/blob/main/LICENSE), covering the code and included template text.

@@ -3,7 +3,7 @@ import json
 from importlib.resources import files
 from collections.abc import Mapping
 
-__version__ = "0.1.0"
+__version__ = "0.1.1"
 FIELDS = ("subject", "outfit", "action", "setting", "style", "lighting", "composition")
 
 
